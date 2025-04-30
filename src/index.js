@@ -22,7 +22,7 @@ const createWindow = () => {
   //Charge index.html dans la fenêtre
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
   //Ouvre le DevTools
-  mainWindow.webContents.openDevTools();
+  //mainWindow.webContents.openDevTools();
 };
 
 //Cette methode est appelee lorsque Electron a fini de s'initialiser
